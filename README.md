@@ -74,7 +74,11 @@ vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
 
 It will make you feel better about your progress :)
 
-<img src="/images/type_coverage_trends.png" style="width: 50em; border: 1px solid #DDD">
+<br>
+
+<kdb>
+    <img src="/images/type_coverage_trends.png" style="width: 45em">
+</kdb>
 
 <br>
 <br>

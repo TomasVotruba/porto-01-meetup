@@ -39,6 +39,10 @@ composer require TomasVotruba/cognitive-complexity --dev
 
 * post: https://tomasvotruba.com/blog/keep-cognitive-complexity-low-with-phpstan/
 
+```demo
+vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
+```
+
 * <br>
 
 ## 3. Increase Type Coverage

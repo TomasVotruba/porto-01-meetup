@@ -14,8 +14,16 @@ jobs:
                 actions:
                     # all jobs must fail, to show PHPStan finds the errors as expected
                     -
+                        name: 'PHPStan Unused Public'
+                        run: vendor/bin/phpstan analyse --configuration phpstan-unused-public.neon
+
+                    -
                         name: 'PHPStan Cognitive Complexity'
                         run: vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
+
+                    -
+                        name: 'PHPStan Type Coverage'
+                        run: vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
 
         name: ${{ matrix.actions.name }}
         runs-on: ubuntu-latest

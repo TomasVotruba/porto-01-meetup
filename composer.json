@@ -1,0 +1,8 @@
+{
+    "require-dev": {
+        "phpstan/phpstan": "^1.9",
+        "tomasvotruba/unused-public": "^0.0.34",
+        "tomasvotruba/type-coverage": "^0.0.9",
+        "tomasvotruba/cognitive-complexity": "^0.0.5"
+    }
+}

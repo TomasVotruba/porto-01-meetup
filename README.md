@@ -76,9 +76,7 @@ It will make you feel better about your progress :)
 
 <br>
 
-<kdb>
-    <img src="/images/type_coverage_trends.png" style="width: 45em">
-</kdb>
+<img src="/images/type_coverage_trends.png" style="width: 45em">
 
 <br>
 <br>

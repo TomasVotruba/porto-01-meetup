@@ -9,6 +9,11 @@
         "tomasvotruba/cognitive-complexity": "^0.0.5",
         "phpstan/extension-installer": "^1.2"
     },
+    "autoload": {
+        "psr-4": {
+            "PortoMeetup\\": "src"
+        }
+    },
     "config": {
         "allow-plugins": {
             "phpstan/extension-installer": true

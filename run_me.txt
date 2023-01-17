@@ -1,8 +1,8 @@
 # 1. unused public
-vendor/bin/phpstan analyse --configuration phpstan-unused-public.neon
+vendor/bin/phpstan analyse -c phpstan-unused-public.neon
 
 # 2. cognitive complexity
-vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
+vendor/bin/phpstan analyse -c phpstan-cognitive-complexity.neon
 
 # 3. type coverage
-vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
+vendor/bin/phpstan analyse -c phpstan-type-coverage.neon

@@ -6,4 +6,4 @@
 * cognitive complexity
 * type coverage :)
 
-<img src="/images/type_coverage_trends">
+<img src="/images/type_coverage_trends.png">

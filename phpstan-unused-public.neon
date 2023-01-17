@@ -2,10 +2,9 @@ parameters:
     paths:
         - src/UnusedPublic
 
-    # turns off default phpstan levels to keep this only about our rules
-    customRulesetUsed: true
-
     unused_public:
         methods: true
         properties: true
         constants: true
+
+    customRulesetUsed: true

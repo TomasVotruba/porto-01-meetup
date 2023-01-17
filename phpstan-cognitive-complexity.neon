@@ -2,9 +2,8 @@ parameters:
     paths:
         - src/CognitiveComplexity
 
-    # turns off default phpstan levels to keep this only about our rules
-    customRulesetUsed: true
-
     cognitive_complexity:
         class: 10
         function: 4
+
+    customRulesetUsed: true

@@ -4,9 +4,6 @@ namespace PortoMeetup\UnusedPublic;
 
 final class YourCompany
 {
-    /**
-     * @api
-     */
     public function hireForWork(
         ExternalConsultant $externalConsultant,
         bool $hasBudget

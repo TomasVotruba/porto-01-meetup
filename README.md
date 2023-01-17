@@ -1,8 +1,8 @@
 # 3 PHPStan packages to Rock Your World 😎
 
-@todo always how to run + link to the package + link to the post :)
+<br>
 
-## Install me
+## Do you want to try it? Install me
 
 ```bash
 git@github.com:TomasVotruba/porto-01-meetup.git

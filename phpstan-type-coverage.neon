@@ -1,2 +1,12 @@
-paths:
-    - src/TypeCoverage
+parameters:
+    paths:
+        - src/TypeCoverage
+
+    # turns off default phpstan levels to keep this only about our rules
+    customRulesetUsed: true
+
+    type_coverage:
+        return_type: 100
+        param_type: 80
+        property_type: 70
+        # print_suggestions: false

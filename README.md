@@ -15,29 +15,35 @@ composer install
 
 ## 1. Find Unused code
 
-* package: https://github.com/TomasVotruba/unused-public
+* [Package on Github](https://github.com/TomasVotruba/unused-public)
+* [Read a post](https://tomasvotruba.com/blog/can-phpstan-find-dead-public-methods/)
+
+Install package to your project:
 
 ```bash
-# install
-composer require phpstan/extension-installer --dev
-composer require TomasVotruba/unused-public --dev
+composer require tomasvotruba/unused-public phpstan/extension-installer --dev
 ```
 
-* post: https://tomasvotruba.com/blog/can-phpstan-find-dead-public-methods/
+Run this demo:
+
+```demo
+vendor/bin/phpstan analyse --configuration unused-public.neon
+```
 
 <br>
 
 ## 2. Lower Cognitive Complexity
 
-* package: https://github.com/TomasVotruba/cognitive-complexity
+* [Package on Github](https://github.com/tomasvotruba/cognitive-complexity)
+* [Read a Post](https://tomasvotruba.com/blog/keep-cognitive-complexity-low-with-phpstan/)
+
+Install package to your project:
 
 ```bash
-# install
-composer require phpstan/extension-installer --dev
-composer require TomasVotruba/cognitive-complexity --dev
+composer require tomasvotruba/cognitive-complexity phpstan/extension-installer --dev
 ```
 
-* post: https://tomasvotruba.com/blog/keep-cognitive-complexity-low-with-phpstan/
+Run this demo:
 
 ```demo
 vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
@@ -47,14 +53,37 @@ vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
 
 ## 3. Increase Type Coverage
 
-* package: https://github.com/TomasVotruba/type-coverage
+* [Package on Github](https://github.com/tomasvotruba/type-coverage)
+* [Read a post](https://tomasvotruba.com/blog/how-to-measure-your-type-coverage/)
+
+Install package to your project:
 
 ```bash
-# install
-composer require phpstan/extension-installer --dev
-composer require TomasVotruba/type-coverage --dev
+composer require tomasvotruba/type-coverage phpstan/extension-installer --dev
 ```
 
-* post: https://tomasvotruba.com/blog/how-to-measure-your-type-coverage/
+Run this demo:
+
+```demo
+vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
+```
+
+<br>
+
+### Pro tip: Measure your Coverage in Time
+
+It will make you feel better about your progress :)
 
 <img src="/images/type_coverage_trends.png">
+
+<br>
+<br>
+<br>
+
+## Thank You 🤗
+
+Open this repository with your amazing phone ↓
+
+<img src="/images/qr-code.png">
+
+<br>

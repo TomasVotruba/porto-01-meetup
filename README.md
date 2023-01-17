@@ -1,4 +1,4 @@
-# 3 PHPStan packages to Make you more frustrated
+# 3 PHPStan packages to Rock Your World 😎
 
 @todo always how to run + link to the package + link to the post :)
 

@@ -70,9 +70,9 @@ vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
 
 <br>
 
-### Pro tip 🤓 : Measure your Coverage in Time
+## Pro tip 🤓
 
-It will make you feel better about your progress :)
+Measure your coverage in time. It will make you feel better about your progress :)
 
 <br>
 

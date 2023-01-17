@@ -1,0 +1,5 @@
+vendor/bin/phpstan analyse --configuration phpstan-unused-public.neon
+
+vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
+
+vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon

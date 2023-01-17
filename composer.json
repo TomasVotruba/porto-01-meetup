@@ -1,4 +1,7 @@
 {
+    "require": {
+        "php":"^8.0"
+    },
     "require-dev": {
         "phpstan/phpstan": "^1.9",
         "tomasvotruba/unused-public": "^0.0.34",

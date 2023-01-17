@@ -27,7 +27,7 @@ composer require tomasvotruba/unused-public phpstan/extension-installer --dev
 Run this demo:
 
 ```demo
-vendor/bin/phpstan analyse --configuration unused-public.neon
+vendor/bin/phpstan analyse --configuration phpstan-unused-public.neon
 ```
 
 <br>

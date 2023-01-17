@@ -49,7 +49,7 @@ Run this demo:
 vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
 ```
 
-* <br>
+<br>
 
 ## 3. Increase Type Coverage
 
@@ -74,7 +74,7 @@ vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
 
 It will make you feel better about your progress :)
 
-<img src="/images/type_coverage_trends.png">
+<img src="/images/type_coverage_trends.png" style="width: 30em">
 
 <br>
 <br>

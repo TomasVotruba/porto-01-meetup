@@ -27,7 +27,7 @@ composer require tomasvotruba/unused-public phpstan/extension-installer --dev
 Run this demo:
 
 ```demo
-vendor/bin/phpstan analyse --configuration phpstan-unused-public.neon
+vendor/bin/phpstan analyse -c phpstan-unused-public.neon
 ```
 
 <br>
@@ -46,7 +46,7 @@ composer require tomasvotruba/cognitive-complexity phpstan/extension-installer -
 Run this demo:
 
 ```demo
-vendor/bin/phpstan analyse --configuration phpstan-cognitive-complexity.neon
+vendor/bin/phpstan analyse -c phpstan-cognitive-complexity.neon
 ```
 
 <br>
@@ -65,7 +65,7 @@ composer require tomasvotruba/type-coverage phpstan/extension-installer --dev
 Run this demo:
 
 ```demo
-vendor/bin/phpstan analyse --configuration phpstan-type-coverage.neon
+vendor/bin/phpstan analyse -c phpstan-type-coverage.neon
 ```
 
 <br>
